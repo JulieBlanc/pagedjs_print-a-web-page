@@ -87,7 +87,7 @@ function printPreview() {
     // 3. Render
     previewer.preview(
       content,
-      ["css/print.css"],
+      ["css/style-print.css"],
       document.querySelector("#renderbook")
     );
 
